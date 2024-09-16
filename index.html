@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>su | A repository to archive memories</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container" align="center">
         <img src="./webp/trickster.webp" width="200" height="200">
         <h1 id="su">su</h1>
         <div class="footnote">last updated 09/02/2024</div>
         <p>
-            <a href="#discord">Discord History</a> • <a href="#moonbunny">Moon Bunny</a> • <a href="#trickster">Fame Trickster</a> • <a href="#account">Account</a>
+            <a href="#discord">Discord History</a> • <a href="#moonbunny">Moon Bunny</a> • <a href="#deathpoets">Death
+                Poets</a> • <a href="#trickster">Fame Trickster</a> • <a href="#account">Account</a>
         </p>
         <br>
         <hr>
         <div class="media">
             <h2 id="discord">Discord History</h2>
-            
+
             <div class="media-item">
                 <img src="images/misc/pest control.jpg" loading="lazy">
                 <div class="caption">Pest Control Moderator Promotion</div>
@@ -76,6 +79,28 @@
                 <div class="footnote">05/18/2024</div>
             </div>
 
+            <h2 id="deathpoets">Death Poets</h2>
+
+            <div class="media-item">
+                <img src="images/death poets/death poets art 3.jpg" loading="lazy">
+                <div class="footnote">9/15/2024</div>
+            </div>
+
+            <div class="media-item">
+                <img src="images/death poets/death poets art 2.jpg" loading="lazy">
+                <div class="footnote">9/15/2024</div>
+            </div>
+
+            <div class="media-item">
+                <img src="images/death poets/death poets art 1.jpg" loading="lazy">
+                <div class="footnote">9/15/2024</div>
+            </div>
+
+            <div class="media-item">
+                <img src="images/death poets/death poets art 4.jpg" loading="lazy">
+                <div class="footnote">9/15/2024</div>
+            </div>
+
             <h2 id="trickster">Fame Trickster</h2>
 
             <div class="media-item">
@@ -123,7 +148,7 @@
                 <div class="caption">do a little bartering</div>
                 <div class="footnote">12/05/2023</div>
             </div>
-            
+
             <div class="media-item">
                 <img src="images/trickster/78119.png" loading="lazy">
                 <div class="caption">78k</div>
@@ -472,7 +497,8 @@
                     <br><br>
                     <b>Not depicted:</b>
                     <br>
-                    Bah, bagpipe, Cream, decoy, gerpep, Guava, Haise, Honeygold, ImBullet, Mage, Schaaaf, Shusuii, Terry, Toontoon, Trodaire, Uberer, WigDr, Zorrita
+                    Bah, bagpipe, Cream, decoy, gerpep, Guava, Haise, Honeygold, ImBullet, Mage, Schaaaf, Shusuii,
+                    Terry, Toontoon, Trodaire, Uberer, WigDr, Zorrita
                 </div>
                 <div class="footnote">08/17/2024</div>
             </div>
@@ -603,44 +629,45 @@
                 <div class="caption">Skins</div>
                 <div class="footnote">08/17/2024</div>
             </div>
-            
+
             <a style="cursor: pointer;" onclick="scrollToTop()">scroll to top</a>
         </div>
     </div>
 
 
-<div id="myModal" class="modal" align="center">
-    <img class="modal-content" id="image">
-</div>
+    <div id="myModal" class="modal" align="center">
+        <img class="modal-content" id="image">
+    </div>
 
-<script>
-    const modal = document.getElementById("myModal");
-    const images = document.querySelectorAll('.container img');
-    const modalImg = document.getElementById("image");
+    <script>
+        const modal = document.getElementById("myModal");
+        const images = document.querySelectorAll('.container img');
+        const modalImg = document.getElementById("image");
 
-    images.forEach(function(img) {
-        img.onclick = function(){
-            modal.style.display = "block";
-            modal.classList.add('show');
-            modalImg.src = this.src;
+        images.forEach(function (img) {
+            img.onclick = function () {
+                modal.style.display = "block";
+                modal.classList.add('show');
+                modalImg.src = this.src;
+            }
+        });
+
+        modal.onclick = function (event) {
+            if (event.target === modal) {
+                modal.classList.remove('show');
+                modal.classList.add('fade-out');
+                setTimeout(function () {
+                    modal.style.display = "none";
+                    modal.classList.remove('fade-out');
+                }, 500);
+            }
         }
-    });
 
-    modal.onclick = function(event) {
-        if (event.target === modal) {
-            modal.classList.remove('show');
-            modal.classList.add('fade-out');
-            setTimeout(function() {
-                modal.style.display = "none";
-                modal.classList.remove('fade-out');
-            }, 500);
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
-    }
-
-    function scrollToTop(){
-        window.scrollTo({top: 0, behavior: 'smooth'});
-    }
-</script>
+    </script>
 
 </body>
+
 </html>
