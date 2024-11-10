@@ -4,95 +4,59 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
     min-height: 100vh;
 }
+
 a {
     text-decoration: none;
-    color: #444;
+    color: #333;
 }
-.container {
-    width: 90%;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    border-radius: 8px;
+
+a:hover {
+    color: #000;
 }
+
 h1 {
     text-align: center;
     font-size: 1.8em;
     color: #444;
-    margin-bottom: 30px;
     font-weight: 400;
 }
-.media {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+
+h5 {
+    font-weight: normal;
+    font-size: large;
 }
-.media-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-.media img, video {
-    width: 100%;
-    max-width: 70%;
-    height: auto;
-    border-radius: 4px;
-    object-fit: cover;
-}
-.caption {
-    font-size: 1em;
-    color: #666;
+
+.carousel-indicators {
+    position: relative;
     text-align: center;
 }
-.footnote {
-    font-size: 0.9em;
-    color: #999;
-    text-align: center;
-    margin-top: 5px;
-}
-.container img {
-    margin: 10px;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-}
-.container img:hover {
-    transform: scale(1.05);
-}
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    padding-top: 100px;
-    background-color: rgba(0,0,0,0.5);
-}
-.modal-content {
-    display: block;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    margin: auto;
-    background-size: cover;
-    padding-bottom: 100px;
-}
-.modal.show {
-    background-color: rgba(0,0,0,0.5);
-    transition: 0.5s ease;
-}
-.modal.show .modal-content {
+
+.carousel-indicators button:hover {
+    background-color: #000;
     opacity: 1;
 }
-.modal.fade-out {
-    background-color: rgba(0,0,0,0);
+
+.carousel-caption {
+    position: static;
+    padding-top: 20px;
+    color: #000;
+    text-align: center;
 }
-.modal.fade-out .modal-content {
-    opacity: 0;
+
+#currentPage {
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+
+#currentPage:focus {
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+
+.footnote {
+    font-style: italic;
+    font-size: medium;
 }
