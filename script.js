@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 mediaElement.classList.add('d-block', 'w-100');
                 mediaElement.src = item.src;
                 mediaElement.alt = item.caption || '';
+                mediaElement.loading = 'lazy';
             } else if (item.type === 'video') {
                 mediaElement = document.createElement('video');
                 mediaElement.classList.add('d-block', 'w-100');

@@ -625,6 +625,18 @@
             "caption": "candy of ominous spells",
             "footnote": "after 30 minutes in the maze...",
             "date": "10/18/2024"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1234567.png",
+            "caption": "1,234,567",
+            "date": "11/09/2024"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1234567-2.png",
+            "caption": "gl lv",
+            "date": "11/09/2024"
         }
     ],
     "Account": [
