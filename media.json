@@ -572,6 +572,12 @@
             "date": "08/31/2024"
         },
         {
+            "type": "video",
+            "src": "videos/fame thief.mp4",
+            "caption": "fame thief",
+            "date": "09/01/2024"
+        },
+        {
             "type": "image",
             "src": "images/trickster/1111111.png",
             "caption": "1,111,111",
@@ -673,12 +679,6 @@
             "src": "images/trickster/1300000-6.png",
             "caption": "",
             "date": "11/29/2024"
-        },
-        {
-            "type": "image",
-            "src": "images/trickster/final.png",
-            "caption": "final",
-            "date": "11/29/2024"
         }
     ],
     "Account": [
@@ -699,6 +699,12 @@
             "src": "images/misc/skins.png",
             "caption": "Skins",
             "date": "08/17/2024"
+        },
+        {
+            "type": "image",
+            "src": "images/misc/final.png",
+            "caption": "final",
+            "date": "11/29/2024"
         }
     ]
 }
