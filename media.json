@@ -386,6 +386,12 @@
         },
         {
             "type": "video",
+            "src": "videos/petrify.mp4",
+            "caption": "remove petrify",
+            "date": "06/16/2024"
+        },
+        {
+            "type": "video",
             "src": "videos/jumpscare2.mp4",
             "caption": "jumpscare",
             "date": "06/19/2024"
@@ -433,6 +439,12 @@
             "date": "07/12/2024"
         },
         {
+            "type": "video",
+            "src": "videos/lag 2.mp4",
+            "caption": "average deca server pt. 2",
+            "date": "07/20/2024"
+        },
+        {
             "type": "image",
             "src": "images/trickster/900000.png",
             "caption": "900k",
@@ -445,10 +457,22 @@
             "date": "07/21/2024"
         },
         {
+            "type": "video",
+            "src": "videos/moon bunny hit.mp4",
+            "caption": "moon bunny agenda",
+            "date": "07/23/2024"
+        },
+        {
             "type": "image",
             "src": "images/trickster/2100.png",
             "caption": "2100 completes",
             "date": "08/11/2024"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/gift.png",
+            "caption": "❤❤",
+            "date": "08/12/2024"
         },
         {
             "type": "image",
@@ -588,6 +612,12 @@
             "src": "images/trickster/1111111-2.png",
             "caption": "",
             "date": "09/02/2024"
+        },
+        {
+            "type": "video",
+            "src": "videos/matrix.mp4",
+            "caption": "matrix my beloved",
+            "date": "09/10/2024"
         },
         {
             "type": "image",
