@@ -93,6 +93,12 @@
     "Trickster": [
         {
             "type": "image",
+            "src": "images/trickster/exalted.png",
+            "caption": "Exalted Trickster",
+            "date": "08/14/2023"
+        },
+        {
+            "type": "image",
             "src": "images/trickster/11765.png",
             "caption": "Started Fame Cults",
             "date": "11/24/2023"
@@ -387,6 +393,12 @@
         {
             "type": "image",
             "src": "images/trickster/700000-2.png",
+            "caption": "",
+            "date": "06/10/2024"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/700000-3.png",
             "caption": "",
             "date": "06/10/2024"
         },
