@@ -20,6 +20,18 @@
         },
         {
             "type": "image",
+            "src": "images/osanc/goats.png",
+            "caption": "the goats",
+            "date": "09/04/2023"
+        },
+        {
+            "type": "image",
+            "src": "images/osanc/goats2.png",
+            "caption": "",
+            "date": "09/04/2023"
+        },
+        {
+            "type": "image",
             "src": "images/osanc/shutdown.png",
             "caption": "Oryx Sanctuary Shutdown",
             "date": "11/10/2023"
@@ -395,6 +407,12 @@
             "src": "videos/jumpscare2.mp4",
             "caption": "jumpscare",
             "date": "06/19/2024"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/keurig.png",
+            "caption": "real",
+            "date": "06/20/2024"
         },
         {
             "type": "video",
