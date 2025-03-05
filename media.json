@@ -782,6 +782,12 @@
         },
         {
             "type": "video",
+            "src": "videos/fame on pt2.mp4",
+            "caption": "fame on pt.2",
+            "date": "01/12/2025"
+        },
+        {
+            "type": "video",
             "src": "videos/bad rusher.mp4",
             "date": "02/08/2025"
         },
@@ -789,13 +795,13 @@
             "type": "video",
             "src": "videos/rushing in 2025.mp4",
             "caption": "2025 rushing experience",
-            "date": "02/22/2024"
+            "date": "02/22/2025"
         },
         {
             "type": "video",
             "src": "videos/2025 max eff.mp4",
             "caption": "2025 max eff fame cults",
-            "date": "02/23/2024"
+            "date": "02/23/2025"
         }
     ],
     "Account": [
