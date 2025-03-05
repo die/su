@@ -202,7 +202,7 @@
         {
             "type": "image",
             "src": "images/trickster/181000.png",
-            "caption": "181k",
+            "caption": "Realm of the Mad God (181k Shatters Complete)",
             "date": "01/19/2024"
         },
         {
@@ -427,6 +427,11 @@
             "date": "06/20/2024"
         },
         {
+            "type": "image",
+            "src": "images/trickster/watchforgolem.png",
+            "date": "06/21/2024"
+        },
+        {
             "type": "video",
             "src": "videos/fame delivery.mp4",
             "caption": "fame delivery",
@@ -633,6 +638,11 @@
         },
         {
             "type": "image",
+            "src": "images/trickster/fameislame.png",
+            "date": "08/27/2024"
+        },
+        {
+            "type": "image",
             "src": "images/trickster/shiny syndicate.png",
             "caption": "shiny syndicate armor",
             "date": "08/28/2024"
@@ -709,6 +719,12 @@
             "caption": "candy of ominous spells",
             "footnote": "after 30 minutes in the maze...",
             "date": "10/18/2024"
+        },
+        {
+            "type": "video",
+            "src": "videos/bolt shiny hacks.mp4",
+            "caption": "bolt shiny hacks",
+            "date": "10/21/2024"
         },
         {
             "type": "image",
