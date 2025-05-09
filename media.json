@@ -99,6 +99,12 @@
         },
         {
             "type": "image",
+            "src": "images/trickster/trickster tops.png",
+            "caption": "trickster dupe",
+            "date": "N/A"
+        },
+        {
+            "type": "image",
             "src": "images/trickster/11765.png",
             "caption": "Started Fame Cults",
             "date": "11/24/2023"
@@ -802,6 +808,52 @@
             "src": "videos/2025 max eff.mp4",
             "caption": "2025 max eff fame cults",
             "date": "02/23/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/shiny puppet prism.png",
+            "caption": "shiny puppet prism",
+            "date": "5/03/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/shiny gem.png",
+            "caption": "shiny gem",
+            "date": "5/03/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/shiny spider dagger.png",
+            "caption": "final for shiny set",
+            "date": "5/03/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/inventories.png",
+            "caption": "flexed out",
+            "date": "5/03/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1400000.png",
+            "caption": "1,400,000",
+            "date": "5/04/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1400000-2.png",
+            "caption": "❤",
+            "date": "5/04/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1400000-3.png",
+            "date": "5/04/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1400000-4.png",
+            "date": "5/04/2025"
         }
     ],
     "Account": [
