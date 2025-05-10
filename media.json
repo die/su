@@ -854,6 +854,12 @@
             "type": "image",
             "src": "images/trickster/1400000-4.png",
             "date": "5/04/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/inventory setup.png",
+            "caption": "new setup until more shiny items",
+            "date": "5/10/2025"
         }
     ],
     "Account": [
