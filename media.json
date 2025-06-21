@@ -35,6 +35,32 @@
             "src": "images/osanc/shutdown.png",
             "caption": "Oryx Sanctuary Shutdown",
             "date": "11/10/2023"
+        },
+        {
+            "type": "image",
+            "src": "images/shunters/shunters -1.png",
+            "caption": "Shiny Hunters",
+            "date": "04/22/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/shunters/shunters -2.png",
+            "date": "04/22/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/shunters/shunters -3.png",
+            "date": "04/22/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/shunters/shunters -4.png",
+            "date": "04/22/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/shunters/shunters -5.png",
+            "date": "04/22/2025"
         }
     ],
     "Moon Bunny": [
@@ -860,6 +886,42 @@
             "src": "images/trickster/inventory setup.png",
             "caption": "new setup until more shiny items",
             "date": "5/10/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1.5 mil - 1.png",
+            "caption": "1,500,000",
+            "date": "06/21/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1.5 mil - 2.png",
+            "date": "06/21/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1.5 mil - 3.png",
+            "date": "06/21/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1.5 mil - 4.png",
+            "date": "06/21/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1.5 mil - 5.png",
+            "date": "06/21/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1.5 mil - 6.png",
+            "date": "06/21/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/1.5 mil - 7.png",
+            "date": "06/21/2025"
         }
     ],
     "Account": [
