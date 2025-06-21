@@ -889,6 +889,12 @@
         },
         {
             "type": "image",
+            "src": "images/trickster/3000 completes.png",
+            "caption": "3,000 completes",
+            "date": "06/17/2025"
+        },
+        {
+            "type": "image",
             "src": "images/trickster/1.5 mil - 1.png",
             "caption": "1,500,000",
             "date": "06/21/2025"
