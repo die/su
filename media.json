@@ -988,6 +988,12 @@
             "src": "images/trickster/complete set 2.png",
             "caption": "❤❤❤❤",
             "date": "09/02/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/final.png",
+            "caption": "final",
+            "date": "10/02/2025"
         }
     ],
     "Account": [
