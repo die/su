@@ -1006,6 +1006,25 @@
             "src": "images/trickster/1.6 mil 2.png",
             "caption": "",
             "date": "10/27/2025"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/shiny ghostly.png",
+            "caption": "shiny ghostly",
+            "date": "01/18/2026"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/new rushing prism.png",
+            "caption": "new rushing prism",
+            "footnote": "t1 prism in retirement o7",
+            "date": "01/18/2026"
+        },
+        {
+            "type": "image",
+            "src": "images/trickster/true final.png",
+            "caption": "one more final.",
+            "date": "01/18/2026"
         }
     ],
     "Account": [
