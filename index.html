@@ -2,38 +2,42 @@
 <html lang="en">
 
 <head>
+    <title>su</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>su | A repository to archive memories</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
     <script src="./bootstrap/js/popper.min.js"></script>
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
     <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="./style.css" rel="stylesheet">
+    <link href="./fonts/shippori.css" rel="stylesheet">
+
 </head>
 
 <body>
     <center>
-        <div class="container" style="width: 800px;">
+        <div class="container" style="width: 800px; padding-top: 1.5rem;">
             <img src="./webp/trickster.webp" width="200" height="200">
-            <h1 id="su">su</h1>
-            <a href="#discord-history" id="discord-history">Discord History</a> •
-            <a href="#moon-bunny" id="moon-bunny">Moon Bunny</a> •
-            <a href="#death-poets" id="death-poets">Death Poets</a> •
-            <a href="#trickster" id="trickster">Trickster</a> •
-            <a href="#account" id="account">Account</a>
-            <br><br>
+            <nav>
+                <a href="#discord-history" id="discord-history">Discord History</a>
+                <a href="#moon-bunny" id="moon-bunny">Moon Bunny</a>
+                <a href="#death-poets" id="death-poets">Death Poets</a>
+                <a href="#trickster" id="trickster">Trickster</a>
+                <a href="#account" id="account">Account</a>
+            </nav>
 
             <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
                 <div class="carousel-inner">
                     <div class="carousel-inner" id="carouselInner"></div>
                 </div>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carousel"></button>
-                    <button type="button" data-bs-target="#carousel"></button>
-                    <button type="button" data-bs-target="#carousel"></button>
-                </div>
+            </div>
+            <div id="slideCaption" class="slide-caption"></div>
+            <div class="nav-arrows">
+                <button type="button">&#8592;</button>
+                <button type="button" class="carousel-dot"></button>
+                <button type="button">&#8594;</button>
             </div>
             <p id="pageNumber" class="footnote">
                 <span id="currentPage">1</span> / <span id="totalPages">91</span>
@@ -48,7 +52,7 @@
     document.addEventListener('DOMContentLoaded', () => {
         const carouselElement = document.getElementById('carousel');
         const carousel = new bootstrap.Carousel(carouselElement);
-        const indicators = document.querySelectorAll('.carousel-indicators button');
+        const indicators = document.querySelectorAll('.nav-arrows button');
         let currentIndex = 1;
 
         function loadSlidesFromJSON() {
@@ -97,9 +101,14 @@
             }
         }
 
+        function updateCaption(items, index) {
+            const item = items[index];
+            const captionEl = document.getElementById('slideCaption');
+            captionEl.innerHTML = `<h5>${item.caption || ''}</h5><p>${item.footnote ? item.footnote + '<br>' : ''}<i>${item.date}</i></p>`;
+        }
+
         function updateCarousel(section) {
             const carouselInner = document.getElementById('carouselInner');
-
             carouselInner.innerHTML = '';
 
             const items = carouselData[section];
@@ -118,7 +127,6 @@
                 } else if (item.type === 'video') {
                     mediaElement = document.createElement('video');
                     mediaElement.classList.add('d-block', 'w-100');
-                    mediaElement.alt = item.caption;
                     mediaElement.src = item.src;
                     mediaElement.controls = true;
                     mediaElement.poster = `./videos/thumbnails/${item.src.split('/')[1].split('.')[0]}.png`;
@@ -126,14 +134,11 @@
                 }
 
                 carouselItem.appendChild(mediaElement);
-
-                const captionDiv = document.createElement('div');
-                captionDiv.classList.add('carousel-caption', 'd-block');
-                captionDiv.innerHTML = `<h5>${item.caption || ''}</h5><p>${item.footnote ? item.footnote + '<br><br>' : ''}<i>${item.date}</i></p>`;
-                carouselItem.appendChild(captionDiv);
-
                 carouselInner.appendChild(carouselItem);
             });
+
+            updateCaption(items, 0);
+            window._currentItems = items;
             updateIndicators(0);
         }
 
@@ -143,6 +148,12 @@
             const activeIndex = event.to;
             currentIndex = activeIndex;
             updateIndicators(activeIndex);
+
+            const section = Object.keys(carouselData).find(key =>
+                carouselData[key].length === carouselElement.querySelectorAll('.carousel-item').length
+            );
+
+            updateCaption(window._currentItems, activeIndex);
         });
 
         carouselElement.addEventListener('slid.bs.carousel', (event) => {
@@ -181,6 +192,7 @@
             const totalSlides = carouselElement.querySelectorAll('.carousel-item').length;
             if (event.key === 'Enter') {
                 event.preventDefault();
+
                 const newPage = parseInt(currentPageElement.textContent);
                 if (newPage >= 1 && newPage <= totalSlides) {
                     carousel.to(newPage - 1);

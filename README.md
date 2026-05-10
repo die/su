@@ -4,7 +4,7 @@
 
 ### su
 
-<a href="https://www.realmeye.com/player/su">RealmEye</a> • <a href="https://die.github.io/su/">Website</a>
+<a href="https://www.realmeye.com/player/su">RealmEye</a> • <a href="https://die.github.io/su/">Gallery</a>
 
 A repository to archive memories
 
