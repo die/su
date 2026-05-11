@@ -724,6 +724,12 @@
         },
         {
             "type": "image",
+            "src": "images/trickster/nathan.png",
+            "caption": ":fire:",
+            "date": "09/19/2024"
+        },
+        {
+            "type": "image",
             "src": "images/trickster/3m df.png",
             "caption": "3,000,000 death fame",
             "date": "09/26/2024"
